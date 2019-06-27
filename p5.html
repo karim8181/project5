@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+</head>
+<body>
+<center>
+    <img onmousedown="gg('id1', 'text1')" onmouseup="ggup('id1')" id="id1" src="zelkv1.png" width="225" height="225">
+<img onclick="mp2()" onmousedown="gg('id2', 'text2')" onmouseup="ggup('id2')" id="id2" src="zelkv1.png" width="225" height="225">
+<img onclick="mp3()" onmousedown="gg('id3', 'text3')" onmouseup="ggup('id3')" id="id3" src="zelkv1.png" width="225" height="225">
+</center>
+<center>
+    <img onclick="mp4()" onmousedown="gg('id4', 'text4')" onmouseup="ggup('id4')" id="id4" src="zelkv1.png" width="225" height="225">
+<img onclick="mp5()" onmousedown="gg('id5', 'text4')" onmouseup="ggup('id5')" id="id5" src="zelkv1.png" width="225" height="225">
+<img onclick="mp6()" onmousedown="gg('id6', 'text6')" onmouseup="ggup('id6')" id="id6" src="zelkv1.png" width="225" height="225">
+</center>
+<center>
+    <img onclick="mp7()" onmousedown="gg('id7', 'text7')" onmouseup="ggup('id7')" id="id7" src="zelkv1.png" width="225" height="225">
+<img onclick="mp8()" onmousedown="gg('id8', 'text8')" onmouseup="ggup('id8')" id="id8" src="zelkv1.png" width="225" height="225">
+<img onclick="mp9()" onmousedown="gg('id9', 'text9')" onmouseup="ggup('id9')" id="id9" src="zelkv1.png" width="225" height="225">
+</center>
+<audio id="text1" src="sound_01293.wav">
+</audio>
+<audio id="text2" src="sound_06238.mp3">
+</audio>
+<audio id="text3" src="sound_16225.mp3">
+</audio>
+<audio id="text4" src="sound_16776.mp3">
+</audio>
+<audio id="text5" src="sound_22120.mp3">
+</audio>
+<audio id="text6" src="z_uk-_ystrely%20(1)2.wav).mp3">
+</audio>
+<audio id="text7" src="z_uk-_ystrely%20(1)2.wav">
+</audio>
+<audio id="text8" src="z_uk-_ystrely%20(2).mp3).mp3">
+</audio>
+<audio id="text9" src="z_uk-_ystrely%20(3).mp3).mp3">
+</audio>
+</body>
+<script>
+function gg(idx, idx1) {
+    document.getElementById(idx).src = 'zelkv2.jpg'
+
+    document.getElementById(idx1).play()
+}
+function ggup(idx) {
+    document.getElementById(idx).src = 'zelkv1.png'
+}
+</script>
+</html>
